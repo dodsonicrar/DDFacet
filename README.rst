@@ -35,7 +35,7 @@ widely supported containerization framework, called Docker. This package is on P
 
 3. Set up a virtual environment, activate it and upgrade pip, setuptools and wheel to the latest PyPI versions::
 
-        $ virtualenv stimelavenv
+        $ virtualenv stimelavenv [-p python3] 
         $ source stimelavenv/bin/activate
         (stimelavenv)$ pip install -U pip wheel setuptools
         (stimelavenv)$ pip install stimela
